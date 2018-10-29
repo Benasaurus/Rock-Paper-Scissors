@@ -2,7 +2,7 @@
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max))
 }
-function computerSelection(){
+function computerPlay(){
     let computerGuess = getRandomInt(3)
     if (computerGuess === 0){
         computerHand = "Rock"
